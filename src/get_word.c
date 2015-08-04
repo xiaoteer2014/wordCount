@@ -8,6 +8,7 @@
 #include<stdio.h>
 #include<ctype.h>
 #include<stdlib.h>
+#include"get_word.h"
 
 int get_word(char *buf, int buf_size, FILE *fp) {
     int len;
